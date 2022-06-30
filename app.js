@@ -10,4 +10,3 @@ app.listen(5000, () => {
 app.get("/", (req, res) => {
     res.sendFile(__dirname + "/src/index.html");
 });
-
